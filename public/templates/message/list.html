@@ -1,0 +1,18 @@
+<table class="table">
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <th>Message</th>
+        </tr>
+    </tbody>
+    <tbody>
+
+    <% _.each(messages, function(message){ %>
+    <tr>
+        <th scope="row"><%= message.get('id') %></th>
+        <td><%= message.get('message') %></td>
+    </tr>
+    <% }); %>
+
+    </tbody>
+</table>
