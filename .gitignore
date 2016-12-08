@@ -2,3 +2,4 @@
 /logs/*
 /.idea
 /src/settings.php
+.DS_Store
