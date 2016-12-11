@@ -22,7 +22,6 @@ define([
 
         app_router.on('route:messageList', function(){
             var messageListView = new MessageListView();
-            messageListView.render();
         });
 
         app_router.on('route:defaultAction', function(actions){
